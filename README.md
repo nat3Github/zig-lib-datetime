@@ -1,4 +1,11 @@
 # zig-time
+info: this is cloned from https://github.com/nektro/zig-time
+and updated to currently 0.14.0
+changes to the original:
+- added zig.zon
+- removed dependency on extras (imo this library should not have dependencies)
+
+
 ![loc](https://sloc.xyz/github/nektro/zig-time)
 [![license](https://img.shields.io/github/license/nektro/zig-time.svg)](https://github.com/nektro/zig-time/blob/master/LICENSE)
 

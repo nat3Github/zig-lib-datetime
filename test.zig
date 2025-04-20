@@ -1,10 +1,6 @@
 const std = @import("std");
 const string = []const u8;
-const time = @import("time");
-
-pub fn main() !void {
-    std.log.info("All your codebase are belong to us.", .{});
-}
+const time = @import("datetime");
 
 fn harness(comptime seed: u64, comptime expects: []const [2]string) void {
     for (0..expects.len) |i| {

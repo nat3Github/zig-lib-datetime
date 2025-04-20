@@ -1,0 +1,17 @@
+.{
+    // .fingerprint = 0xa7e1d2a1a2cbdf64,
+    .fingerprint = 0x93f3c6ca56273d22,
+    .name = .datetime,
+
+    .version = "0.0.0",
+
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
